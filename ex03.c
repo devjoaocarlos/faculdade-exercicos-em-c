@@ -22,4 +22,10 @@ int main()
 
   printf("Digite o peso da terceira nota: \n");
   scanf("%d", &peso3);
+
+  media = ((prova1 * peso1) + (prova2 * peso2) + (prova3 * peso3)) / (peso1 + peso2 + peso3);
+
+  printf("A media foi de: %.1f", media);
+
+  return 0;
 }

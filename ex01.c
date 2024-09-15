@@ -14,9 +14,5 @@ int main()
 
   printf("O resultado e: %d \n", resultado);
 
-  printf("Pressione Enter para sair...");
-	getchar();
-	getchar();
-
   return 0;
 }

@@ -21,9 +21,5 @@ int main()
 
   printf("O resultado da expressao: %d \n", d);
 
-  printf("Pressione Enter para sair...");
-	getchar();
-	getchar();
-
   return 0;
 }

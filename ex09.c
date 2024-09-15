@@ -7,7 +7,7 @@ int main()
 
   float fabricacao, consumidor, distribuidor, imposto;
 
-  printf("Informe o valor de fabricacao do carro: \n");
+  printf("Digite o valor de fabricacao do carro: \n");
   scanf("%f", &fabricacao);
 
   distribuidor = 0.28 * fabricacao;
@@ -17,9 +17,5 @@ int main()
 
   printf("O custo ao consumidor ficou de: %.0f reais \n", consumidor);
 
-  printf("Pressione Enter para sair...");
-	getchar();
-	getchar();
- 
   return 0;
 }

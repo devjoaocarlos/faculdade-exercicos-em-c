@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
 	float nota1, nota2, nota3, media;
 
 	printf("Digite a primeira nota: \n");
@@ -15,10 +16,6 @@ int main() {
 	media = (nota1 + nota2 + nota3) / 3;
 
 	printf("A media e: %.1f \n", media);
-
-	printf("Pressione Enter para sair...");
-	getchar();
-	getchar();
 
 	return 0;
 }
