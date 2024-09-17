@@ -1,12 +1,13 @@
 #include <stdio.h>
+#include <string.h>
 
 int main()
 {
-  char nome;
+  char nome[10];
   float salarioBruto, salarioLiquido, desconto;
 
   printf("Digite o nome do funcionario: \n");
-  scanf("%s", &nome);
+  scanf("%s", nome);
 
   printf("Digite seu salario bruto: \n");
   scanf("%f", &salarioBruto);
@@ -15,7 +16,7 @@ int main()
   desconto = salarioBruto * 0.10;
   salarioLiquido = salarioBruto - desconto;
 
-  printf("seu salario liquido R$ %.0f reais \n", salarioLiquido);
+  printf("%s seu salario liquido R$ %.0f reais \n", nome, salarioLiquido);
 
   return 0;
 }
