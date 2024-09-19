@@ -9,7 +9,7 @@ int main()
 
   area = lado * lado;
 
-  printf("A area do quadrado: %.0fcm \n", area);
+  printf("Area do quadrado = %.0fcm \n", area);
 
   return 0;
 }

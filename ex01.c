@@ -12,7 +12,7 @@ int main()
 
   resultado = (numero1 + numero2) * 3;
 
-  printf("O resultado e: %d \n", resultado);
+  printf("Resultado = %d \n", resultado);
 
   return 0;
 }

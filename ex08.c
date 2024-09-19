@@ -19,7 +19,7 @@ int main()
 
   d = (r + s) / 2;
 
-  printf("O resultado da expressao: %d \n", d);
+  printf("Resultado da expressao = %d \n", d);
 
   return 0;
 }

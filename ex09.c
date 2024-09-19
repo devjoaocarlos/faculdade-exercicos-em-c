@@ -15,7 +15,7 @@ int main()
 
   consumidor = fabricacao + distribuidor + imposto;
 
-  printf("O custo ao consumidor ficou de: %.0f reais \n", consumidor);
+  printf("Custo ao consumidor = R$ %.0f reais \n", consumidor);
 
   return 0;
 }

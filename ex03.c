@@ -25,7 +25,7 @@ int main()
 
   media = ((prova1 * peso1) + (prova2 * peso2) + (prova3 * peso3)) / (peso1 + peso2 + peso3);
 
-  printf("A media foi de: %.1f", media);
+  printf("Media = %.1f", media);
 
   return 0;
 }

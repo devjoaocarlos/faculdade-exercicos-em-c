@@ -12,7 +12,7 @@ int main()
 
   area = (base * altura) / 2;
 
-  printf("A area do triangulo: %.0fcm \n", area);
+  printf("Area do triangulo = %0.fcm \n", area);
 
   return 0;
 }
