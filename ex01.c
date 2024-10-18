@@ -2,17 +2,17 @@
 
 int main()
 {
-  int numero1, numero2, resultado;
+  int n1, n2, result;
 
-  printf("Digite o primeiro numero: \n");
-  scanf("%d", &numero1);
+  printf("Primeiro numero: ");
+  scanf("%d", &n1);
 
-  printf("Digite o segundo numero: \n");
-  scanf("%d", &numero2);
+  printf("Segundo numero: ");
+  scanf("%d", &n2);
 
-  resultado = (numero1 + numero2) * 3;
+  result = (n1 + n2) * 3;
 
-  printf("Resultado = %d \n", resultado);
+  printf("Resultado = %d \n", result);
 
   return 0;
 }
